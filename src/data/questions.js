@@ -659,7 +659,7 @@ export const questions = [
     "id": 31,
     "category": "Podnik, podnikanie, financovanie, investície, sporenie",
     "question": "Čo nepatrí medzi financovanie z vlastných zdrojov?",
-    "type": "multi",
+    "type": "single",
     "options": [
       {
         "text": "Financovanie z majetku",
@@ -1651,11 +1651,11 @@ export const questions = [
       },
       {
         "text": "0€",
-        "correct": false
+        "correct": true
       },
       {
         "text": "7 900 €",
-        "correct": true
+        "correct": false
       },
       {
         "text": "10 000 €",
